@@ -49,7 +49,6 @@ table {
 
 .App {
   text-align: center;
-  height: 100%;
 }
 
 .nameAndSocial{
@@ -57,10 +56,11 @@ table {
   opacity: 0;
   animation: fadeIn 2s; 
   animation-fill-mode: forwards;
-  background-image: url('./images/portfolioBG.jpg');
+  /* background-image: url('./images/codingBG.jpg');
   background-repeat: no-repeat;
-  background-size: 1440px 1080px;
-  padding-bottom: 17%;
+  background-size: cover; */
+  padding-bottom: 15rem;
+  background-color: #1d0033;
 }
 
 @keyframes fadeIn{
@@ -83,6 +83,7 @@ table {
   text-align: left;
   width: 500px;
   margin: 0 auto;
+  color: white;
 }
 
 .nameAndJob h3{
@@ -113,11 +114,10 @@ table {
 .socialMedia{
   display: flex;
   flex-direction: column;
-  /* align-items: flex-end; */
-  /* align-content: space-around; */
   position: absolute;
   right: 2%;
   top: 35%;
+  color: white;
 }
 
 .fa-github-alt, .fa-linkedin-in{
@@ -141,4 +141,13 @@ table {
   80% { transform: translate(-1px, -1px) rotate(1deg); }
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.particles {
+  position: fixed;
+  right: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
 }
