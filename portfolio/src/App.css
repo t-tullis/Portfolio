@@ -52,14 +52,13 @@ table {
 }
 
 .nameAndSocial{
-  padding-top: 12rem;
+  padding-top: 12%;
   opacity: 0;
   animation: fadeIn 2s; 
   animation-fill-mode: forwards;
   /* background-image: url('./images/codingBG.jpg');
   background-repeat: no-repeat;
   background-size: cover; */
-  padding-bottom: 15rem;
   background-color: #1d0033;
 }
 
@@ -93,12 +92,16 @@ table {
   margin-top: 2%;
 }
 
-.fa-hand-point-down{
+.fa-level-down-alt {
   margin-top: 12%;
   color: white;
 }
 
-.fa-hand-point-down:hover{
+.levelDownWhiteSpace{
+  margin: 16rem 44rem;
+}
+
+.fa-level-down-alt:hover, .fa-chevron-down:hover{
   animation: move-up-down 1s infinite;
   cursor: pointer;
 }
@@ -150,4 +153,64 @@ table {
   bottom: 0;
   left: 0;
   z-index: -1;
+}
+
+.about-me{
+background-color: white;
+}
+
+.about-me-content{
+  height: 1000px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.about-me-content h1{
+  padding: 15% 0;
+  font-size: 65px;
+  font-weight: bold;
+  font-family: "Darker Grotesque";
+}
+
+.about-me-content p{
+  font-size: 24px;
+  font-family: "Darker Grotesque";
+}
+
+.left-right-arrow{
+margin-top: 15%;
+display: flex;
+justify-content: space-between;
+}
+
+.fa-chevron-down{
+  margin-top: 15%;
+}
+
+.fa-chevron-left:hover{
+  animation: move-left-right 1s infinite;
+  cursor: pointer;
+}
+.fa-chevron-right:hover{
+  animation: move-left-right 1s infinite;
+  cursor: pointer;
+}
+
+.allArrows{
+  width: 800px;
+  margin: 0 auto;
+}
+
+@keyframes move-left-right {
+  0% { 
+    transform: translateX(0); 
+  }
+  50% { transform: translateX(-10px); }
+}
+
+@keyframes move-right-left {
+  0% { 
+    transform: translateX(0); 
+  }
+  50% { transform: translateX(10px); }
 }

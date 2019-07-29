@@ -5,7 +5,7 @@ import '../App.css'
 const particlesOptions = {
     "particles": {
         "number": {
-          "value": 100,
+          "value": 60,
           "density": {
             "enable": true,
             "value_area": 800
@@ -76,7 +76,7 @@ const particlesOptions = {
         "events": {
           "onhover": {
             "enable": true,
-            "mode": "grab"
+            "mode": "repulse"
           },
           "onclick": {
             "enable": true,

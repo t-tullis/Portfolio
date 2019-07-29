@@ -1,15 +1,15 @@
 import React from 'react'
 import '../App.css'
 
-function SocialMediaBtns(){
+function SocialMediaBtns(props){
     return(
-        <div>
+        <div className='levelDownWhiteSpace'>
             <div className='socialMedia'>
                 <i className="fab fa-github-alt fa-3x"></i>
                 <i className="fab fa-linkedin-in fa-3x"></i>
                 <i className="fab fa-twitter fa-3x"></i>
             </div>
-            <i className="far fa-hand-point-down fa-3x"></i>
+            <i onClick={props.onArrowClick} className="fas fa-level-down-alt fa-3x"></i>
         </div>
     )
 }

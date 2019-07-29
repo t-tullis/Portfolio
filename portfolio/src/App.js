@@ -1,16 +1,30 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import NameAndJob from './components/NameAndJob.js'
 import SocialMediaBtns from './components/SocialMediaBtns.js'
 import ParticleBG from './components/Particle.js'
-import './App.css';
+import AboutMe from './components/AboutMe.js'
 
+import './App.css';
 function App() {
+  let myRef = useRef()
+
+  let onArrowClick = () => {
+    window.scrollTo({ 
+      behavior: 'smooth', 
+      top: myRef.current.offsetTop
+    })
+  }
   return (
     <div className="App">
       <div className='nameAndSocial'>
-          <NameAndJob />
-          <SocialMediaBtns />
           <ParticleBG />
+          <NameAndJob />
+          <SocialMediaBtns 
+          onArrowClick={onArrowClick}
+          myRef={myRef}/>
+      <div ref={myRef}>
+        <AboutMe />
+      </div>
       </div>
     </div>
   );
