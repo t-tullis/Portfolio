@@ -17,8 +17,8 @@ function Projects(){
                     <p>Calendr is a Calendar template manager application to serve all you calendar needs. 
                     </p>
                     <div className='project-links'>
-                    <a href='https://www.calendr.netlify.com'>Live</a>
-                    <a href='https://github.com/labs12-section-calendar-template'>GitHub Repo</a>
+                    <a href='https://www.calendr.netlify.com' target='_blank'>Live</a>
+                    <a href='https://github.com/labs12-section-calendar-template' target='_blank'>GitHub Repo</a>
                     </div>
                 </div>
             </div>
@@ -29,8 +29,8 @@ function Projects(){
                     <p>Social media app to help elementary school students transition into middle school
                     </p>
                     <div className='project-links'>
-                    <a href='https://bubl-marketing.netlify.com/'>Live</a>
-                    <a href='https://github.com/lambda-build-week-bubl'>GitHub Repo</a>
+                    <a href='https://bubl-marketing.netlify.com/' target='_blank'>Live</a>
+                    <a href='https://github.com/lambda-build-week-bubl' target='_blank'>GitHub Repo</a>
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@ function Projects(){
                     <p>Instagram clone using react demonstrating knowledge of components.
                     </p>
                     <div className='project-links'>
-                    <a href='https://github.com/t-tullis/React-Insta-Clone/tree/terrell-tullis3'>GitHub Repo</a>
+                    <a href='https://github.com/t-tullis/React-Insta-Clone/tree/terrell-tullis3' target='_blank'>GitHub Repo</a>
                     </div>
                 </div>
             </div>

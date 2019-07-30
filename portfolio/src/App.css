@@ -124,6 +124,10 @@ table {
   color: white;
 }
 
+.socialMedia a, .socialMedia:visited{
+  color: white;
+}
+
 .fa-github-alt, .fa-linkedin-in{
   margin-bottom: 2rem;
 }
@@ -219,7 +223,7 @@ justify-content: space-between;
 .projects-text{
   padding-right: 6rem;
   animation: color-loop 1s infinite;
-  color: #1d0033;
+  color: #dddddd;
 }
 .resume-text{
   padding-left: 6rem;
@@ -255,6 +259,29 @@ justify-content: space-between;
   animation: slide-in-left 3s; 
   animation-fill-mode: forwards;
 }
+
+.project-links a{
+  color: #1d0033;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+.project-links a:hover{
+  color: #14e878;
+  animation: hover-large 2s infinite;
+}
+
+@keyframes hover-large {
+  0% { 
+    font-size: 16px;
+  }
+  50% { 
+    font-size: 20px;
+  }
+}
+
+
 
 @keyframes slide-in-left {
   0% { 
