@@ -37,9 +37,9 @@ function ArrowNav(){
                         </div>
                         <i onClick={onRightArrowClick} className="fas fa-chevron-right fa-3x"></i>
                 </div>
-                    {projects.isToggleOn && <Projects />}
-                    {resume.isToggleOn && <Resume />}
                 <i className="fas fa-chevron-down fa-3x"></i>
+                {projects.isToggleOn && <Projects />}
+                {resume.isToggleOn && <Resume />}
             </div>
         )
     }

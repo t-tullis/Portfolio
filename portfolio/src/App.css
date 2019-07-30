@@ -218,11 +218,22 @@ justify-content: space-between;
 
 .projects-text{
   padding-right: 6rem;
+  animation: color-loop 1s infinite;
   color: #1d0033;
 }
 .resume-text{
   padding-left: 6rem;
+  animation: color-loop 1s infinite;
   color: #1d0033;
+}
+
+@keyframes color-loop {
+  0% { 
+    color: #1d0033; 
+  }
+  50% { 
+    color: #14e878;
+  }
 }
 
 @keyframes move-left-right {
