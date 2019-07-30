@@ -14,6 +14,7 @@ function App() {
       top: myRef.current.offsetTop
     })
   }
+
   return (
     <div className="App">
       <div className='nameAndSocial'>
@@ -23,7 +24,9 @@ function App() {
           onArrowClick={onArrowClick}
           myRef={myRef}/>
       <div ref={myRef}>
-        <AboutMe />
+        <AboutMe 
+        onArrowClick={onArrowClick}
+        />
       </div>
       </div>
     </div>
