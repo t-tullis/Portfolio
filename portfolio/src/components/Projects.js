@@ -17,7 +17,7 @@ function Projects(){
                     <p>Calendr is a Calendar template manager application to serve all you calendar needs. 
                     </p>
                     <div className='project-links'>
-                    <a href='https://www.calendr.netlify.com' target='_blank'>Live</a>
+                    <a href='https://calendr.netlify.com' target='_blank'>Live</a>
                     <a href='https://github.com/labs12-section-calendar-template' target='_blank'>GitHub Repo</a>
                     </div>
                 </div>
