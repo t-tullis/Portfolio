@@ -286,7 +286,7 @@ justify-content: space-between;
 @media(max-width: 500px){
   .mobile-instruction{
     display: block;
-    padding: 0 3rem;
+    padding: 0 1rem;
   }
 }
 
@@ -382,7 +382,7 @@ justify-content: space-between;
 
 @media(max-width: 500px){
   .resume img{
-    width: 450px;
+    width: 340px;
   }
 }
 
