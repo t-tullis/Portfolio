@@ -51,6 +51,11 @@ table {
   text-align: center;
 }
 
+@media(max-width: 500px) {
+  .App{
+  }
+}
+
 .nameAndSocial{
   padding-top: 12%;
   opacity: 0;
@@ -78,11 +83,25 @@ table {
   font-weight: bold;  
 }
 
+@media(max-width: 500px){
+  .nameAndJob h1{
+    font-size: 70px;
+  }
+}
+
 .nameAndJob{
   text-align: left;
   width: 500px;
   margin: 0 auto;
   color: white;
+}
+
+@media(max-width: 500px){
+  .nameAndJob {
+    text-align: center;
+    color: white;
+    margin-top: 5rem;
+  }
 }
 
 .nameAndJob h3{
@@ -97,8 +116,20 @@ table {
   color: white;
 }
 
+@media(max-width: 500px){
+  .fa-level-down-alt {
+    margin: 12rem 0;
+  }
+}
+
 .levelDownWhiteSpace{
   margin: 16rem 44rem;
+}
+
+@media(max-width: 500px){
+  .levelDownWhiteSpace{
+    margin: 0rem 0rem;
+  }
 }
 
 .fa-level-down-alt:hover{
@@ -122,6 +153,15 @@ table {
   right: 2%;
   top: 35%;
   color: white;
+}
+
+@media(max-width: 500px){
+  .socialMedia {
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: static;
+    margin-top: 5rem;
+  }
 }
 
 .socialMedia a, .socialMedia:visited{
@@ -156,11 +196,11 @@ table {
 .particles {
   position: fixed;
   right: 0;
-  right: 0;
   bottom: 0;
   left: 0;
   z-index: -1;
 }
+
 
 /* About me CSS */
 .about-me{
@@ -171,6 +211,12 @@ background-color: white;
   height: 1000px;
   width: 800px;
   margin: 0 auto;
+}
+
+@media(max-width: 500px){
+  .about-me-content {
+    width: 100%;
+}
 }
 
 .about-me-content h1{
@@ -184,7 +230,6 @@ background-color: white;
   font-size: 24px;
   font-family: "Darker Grotesque";
 }
-
 
 
 /* Arrows and Arrow Animations */
@@ -215,6 +260,12 @@ justify-content: space-between;
   margin: 0 auto;
 }
 
+@media(max-width: 500px){
+  .allArrows {
+    width: 100%;
+  }
+}
+
 .arrowCategory{
   display: flex;
   align-items: center;
@@ -223,12 +274,41 @@ justify-content: space-between;
 .projects-text{
   padding-right: 6rem;
   animation: color-loop 1s infinite;
-  color: #dddddd;
 }
+
+.mobile-instruction{
+  display: none;
+}
+
+@media(max-width: 500px){
+  .mobile-instruction{
+    display: block;
+    padding: 0 5rem;
+  }
+}
+
+@media(max-width: 500px){
+  .projects-text {
+    padding-right: 0rem;
+  }
+}
+
 .resume-text{
   padding-left: 6rem;
   animation: color-loop 1s infinite;
   color: #1d0033;
+}
+
+@media(max-width: 500px){
+  .resume-text {
+    padding-left: 0rem;
+  }
+}
+
+@media(max-width: 500px){
+  .arrow-instructions {
+    display: none;
+  }
 }
 
 @keyframes color-loop {
@@ -263,7 +343,8 @@ justify-content: space-between;
 .project-links a{
   color: #1d0033;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 22px;
+  font-family: 'Darker Grotesque';
 }
 
 
@@ -274,10 +355,10 @@ justify-content: space-between;
 
 @keyframes hover-large {
   0% { 
-    font-size: 16px;
+    font-size: 22px;
   }
   50% { 
-    font-size: 20px;
+    font-size: 26px;
   }
 }
 
@@ -296,6 +377,12 @@ justify-content: space-between;
   animation-fill-mode: forwards;
 }
 
+@media(max-width: 500px){
+  .resume img{
+    width: 450px;
+  }
+}
+
 @keyframes slide-in-right {
   0% { 
     transform: translateX(-1100px); 
@@ -310,8 +397,29 @@ justify-content: space-between;
   justify-content: space-evenly;
 }
 
+@media(max-width: 500px){
+  .project-card {
+    flex-direction: column-reverse;
+    margin: 0 1.5rem;
+  }
+}
+
+@media(max-width: 500px){
+  .project-links {
+    margin-bottom: 1.5rem;
+  }
+}
+
+
 .project-card img{
   width: 500px;
+}
+
+@media(max-width: 500px){
+  .project-card img{
+    margin-bottom: 1rem;
+    width: 400px;
+  }
 }
 
 .text-content h2{

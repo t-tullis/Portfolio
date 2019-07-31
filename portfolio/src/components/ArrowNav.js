@@ -33,6 +33,7 @@ function ArrowNav(){
                          <div className='arrowCategory'>
                             <p className='projects-text'>Projects</p>
                             <p className='arrow-instructions'>Click Project/Resume Arrow To View</p>
+                            <p className='mobile-instruction'>View Below</p>
                             <p className='resume-text'>Resume</p>
                         </div>
                         <i onClick={onRightArrowClick} className="fas fa-chevron-right fa-3x"></i>
