@@ -215,7 +215,7 @@ background-color: white;
 
 @media(max-width: 500px){
   .about-me-content {
-    width: 100%;
+    width: 95%;
 }
 }
 
@@ -262,7 +262,7 @@ justify-content: space-between;
 
 @media(max-width: 500px){
   .allArrows {
-    width: 100%;
+    width: 95%;
   }
 }
 
@@ -283,7 +283,7 @@ justify-content: space-between;
 @media(max-width: 500px){
   .mobile-instruction{
     display: block;
-    padding: 0 5rem;
+    padding: 0 3rem;
   }
 }
 

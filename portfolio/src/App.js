@@ -18,12 +18,12 @@ function App() {
   return (
     <div className="App">
       <div className='nameAndSocial'>
-          <ParticleBG />
           <NameAndJob />
           <SocialMediaBtns 
           onArrowClick={onArrowClick}
           myRef={myRef}/>
       <div ref={myRef}>
+          <ParticleBG />
         <AboutMe 
         onArrowClick={onArrowClick}
         />
