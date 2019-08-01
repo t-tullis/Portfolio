@@ -343,6 +343,12 @@ justify-content: space-between;
   animation-fill-mode: forwards;
 }
 
+@media(max-width: 500px){
+  .projects{
+    width: 100%;
+  }
+}
+
 .project-links a{
   color: #1d0033;
   text-decoration: none;
@@ -407,11 +413,6 @@ justify-content: space-between;
   }
 }
 
-@media(max-width: 500px){
-  .project-links {
-    margin-bottom: 1.5rem;
-  }
-}
 
 
 .project-card img{
@@ -437,4 +438,10 @@ justify-content: space-between;
   display: flex;
   justify-content: space-evenly;
   margin-top: 15px;
+}
+
+@media(max-width: 500px){
+  .project-links {
+    margin-bottom: 1.5rem;
+  }
 }
