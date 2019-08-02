@@ -8,7 +8,7 @@ function AboutMe(props){
             <div className='about-me-content'>
             <h1>ABOUT ME</h1>
             <p>
-                Hey everyone welcome to my portfolio. A little about myself, I am from Washington, D.C. 
+                Hey everyone welcome to my portfolio. A little about myself, I am from Maryland 
                 I was a former security guard before becoming a full-stack web developer. 
                 Working graveyard shifts I had a lot of spare time so I began to teach myself the 
                 fundamentals of web development. Using sources like codecademy and freecodecamp made 
@@ -18,7 +18,7 @@ function AboutMe(props){
             <br />
 			<p>
 				I'm also a General Assembly alumnus, I completed the Web Development Immersive in 
-                April of 2018. After completing the immersive, I felt I need an extra push to get a full 
+                April of 2018. After completing the immersive, I felt I needed an extra push to get a full 
                 grasp of full-stack web development so I applied to Lambda School. I'm currently a 
                 Lambda student and this has been the best decision of my life because I feel everything 
                 coming together and getting comfortable being a Developer. 

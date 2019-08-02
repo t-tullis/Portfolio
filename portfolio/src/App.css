@@ -422,7 +422,7 @@ justify-content: space-between;
 @media(max-width: 500px){
   .project-card img{
     margin-bottom: 1rem;
-    width: 400px;
+    width: 360px;
   }
 }
 
