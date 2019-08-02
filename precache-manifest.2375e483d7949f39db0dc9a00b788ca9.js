@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bcd8a54846bf6565cad8588d4ea56787",
+    "revision": "837d14006a970cf597239f19c635ac8f",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "dcfb50d1ae20af12fdab",
+    "revision": "9ca44d66f001a96521b0",
     "url": "/Portfolio/static/css/main.f114b8b3.chunk.css"
   },
   {
-    "revision": "c1dcc5ac81a85a656aae",
-    "url": "/Portfolio/static/js/2.e4383a0c.chunk.js"
+    "revision": "f2018bdc3fc154b9eebc",
+    "url": "/Portfolio/static/js/2.72d094d1.chunk.js"
   },
   {
-    "revision": "dcfb50d1ae20af12fdab",
-    "url": "/Portfolio/static/js/main.696ff595.chunk.js"
+    "revision": "9ca44d66f001a96521b0",
+    "url": "/Portfolio/static/js/main.ed2531f7.chunk.js"
   },
   {
     "revision": "591eb5beb99e69ed8d3e",
@@ -34,5 +34,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1e88e8edfd65cdf888352652ab439428",
     "url": "/Portfolio/static/media/Resume.1e88e8ed.png"
+  },
+  {
+    "revision": "8d11924d3e3debb8e8e8886957c8889f",
+    "url": "/Portfolio/static/media/TreasureHunt.8d11924d.png"
   }
 ]);
