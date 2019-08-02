@@ -31,10 +31,10 @@ function ArrowNav(){
                 <div className='left-right-arrow'>
                          <i onClick={onLeftArrowClick} className="fas fa-chevron-left fa-3x"></i>
                          <div className='arrowCategory'>
-                            <p className='projects-text'>Projects</p>
+                            <p onClick={onLeftArrowClick} className='projects-text'>Projects</p>
                             <p className='arrow-instructions'>Click Project/Resume Arrow To View</p>
                             <p className='mobile-instruction'>View Below</p>
-                            <p className='resume-text'>Resume</p>
+                            <p onClick={onRightArrowClick}className='resume-text'>Resume</p>
                         </div>
                         <i onClick={onRightArrowClick} className="fas fa-chevron-right fa-3x"></i>
                 </div>
