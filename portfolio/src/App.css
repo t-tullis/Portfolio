@@ -246,6 +246,13 @@ justify-content: space-between;
   animation: move-up-down 1s infinite;
 }
 
+@media(max-width: 500px){
+  .fa-chevron-down{
+    animation: move-up-down 0;
+  }
+}
+
+
 .fa-chevron-left:hover{
   animation: move-left-right 1s infinite;
   color: #14e878;
@@ -277,6 +284,7 @@ justify-content: space-between;
 .projects-text{
   padding-right: 6rem;
   animation: color-loop 1s infinite;
+  color: #1d0033;
 }
 
 .projects-text:hover{
@@ -297,6 +305,8 @@ justify-content: space-between;
 @media(max-width: 500px){
   .projects-text {
     padding-right: 0rem;
+    animation: color-loop 0;
+    color: #14e878;
   }
 }
 
@@ -314,6 +324,8 @@ justify-content: space-between;
 @media(max-width: 500px){
   .resume-text {
     padding-left: 0rem;
+    animation: color-loop 0;
+    color: #14e878;
   }
 }
 
@@ -355,6 +367,7 @@ justify-content: space-between;
 @media(max-width: 500px){
   .projects{
     width: 100%;
+    z-index: 1;
   }
 }
 
@@ -396,6 +409,9 @@ justify-content: space-between;
 }
 
 @media(max-width: 500px){
+  .resume{
+    z-index: 1;
+  }
   .resume img{
     width: 340px;
   }

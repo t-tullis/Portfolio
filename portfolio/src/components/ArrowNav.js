@@ -1,10 +1,9 @@
-import React, { useState, useRef } from 'react'
+import React, { useState} from 'react'
 import Projects from './Projects.js'
 import Resume from './Resume.js'
 import '../App.css'
 
 function ArrowNav(){
-    let myRef = useRef()
 
     const [projects, setProjects] = useState({
         isToggleOn: false
@@ -14,13 +13,16 @@ function ArrowNav(){
         isToggleOn: false
     })
 
-    let onLeftArrowClick = () => {
+    let onLeftArrowClick = (e) => {
+        e.preventDefault()
+
         setProjects({
             isToggleOn: !projects.isToggleOn
         })
     }
 
-    let onRightArrowClick = () => {
+    let onRightArrowClick = (e) => {
+        e.preventDefault();
         setResume({
             isToggleOn: !resume.isToggleOn
         })
