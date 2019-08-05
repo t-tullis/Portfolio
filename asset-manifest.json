@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.30e60910.chunk.css",
-    "main.js": "/Portfolio/static/js/main.6b79fc18.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.6b79fc18.chunk.js.map",
-    "runtime~main.js": "/Portfolio/static/js/runtime~main.8760695a.js",
-    "runtime~main.js.map": "/Portfolio/static/js/runtime~main.8760695a.js.map",
-    "static/js/2.72d094d1.chunk.js": "/Portfolio/static/js/2.72d094d1.chunk.js",
-    "static/js/2.72d094d1.chunk.js.map": "/Portfolio/static/js/2.72d094d1.chunk.js.map",
-    "index.html": "/Portfolio/index.html",
-    "precache-manifest.09b6f57b856504ce4d5bb25f0386e8cc.js": "/Portfolio/precache-manifest.09b6f57b856504ce4d5bb25f0386e8cc.js",
-    "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.30e60910.chunk.css.map": "/Portfolio/static/css/main.30e60910.chunk.css.map",
-    "static/media/Bubl.gif": "/Portfolio/static/media/Bubl.c90e3c63.gif",
-    "static/media/Calendr.png": "/Portfolio/static/media/Calendr.bb29ab50.png",
-    "static/media/InstaClone.png": "/Portfolio/static/media/InstaClone.0f2bab4b.png",
-    "static/media/Resume.png": "/Portfolio/static/media/Resume.1e88e8ed.png",
-    "static/media/TreasureHunt.png": "/Portfolio/static/media/TreasureHunt.8d11924d.png"
+    "main.css": "/static/css/main.30e60910.chunk.css",
+    "main.js": "/static/js/main.6b79fc18.chunk.js",
+    "main.js.map": "/static/js/main.6b79fc18.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.c5541365.js",
+    "runtime~main.js.map": "/static/js/runtime~main.c5541365.js.map",
+    "static/js/2.72d094d1.chunk.js": "/static/js/2.72d094d1.chunk.js",
+    "static/js/2.72d094d1.chunk.js.map": "/static/js/2.72d094d1.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.14e3d4e7f93752143e68fcaabe4e11be.js": "/precache-manifest.14e3d4e7f93752143e68fcaabe4e11be.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.30e60910.chunk.css.map": "/static/css/main.30e60910.chunk.css.map",
+    "static/media/Bubl.gif": "/static/media/Bubl.c90e3c63.gif",
+    "static/media/Calendr.png": "/static/media/Calendr.bb29ab50.png",
+    "static/media/InstaClone.png": "/static/media/InstaClone.0f2bab4b.png",
+    "static/media/Resume.png": "/static/media/Resume.1e88e8ed.png",
+    "static/media/TreasureHunt.png": "/static/media/TreasureHunt.8d11924d.png"
   }
 }
