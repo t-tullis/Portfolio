@@ -55,7 +55,7 @@ function Projects(){
                     <p>Instagram clone using react demonstrating knowledge of components.
                     </p>
                     <div className='project-links'>
-                    <a href='https://github.com/t-tullis/React-Insta-Clone/tree/terrell-tullis3' target='_blank'>GitHub Repo</a>
+                    <a href='https://github.com/terrelltullis/React-Insta-Clone/tree/terrell-tullis3' target='_blank'>GitHub Repo</a>
                     </div>
                 </div>
             </div>
