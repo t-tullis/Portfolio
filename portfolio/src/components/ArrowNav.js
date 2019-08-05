@@ -15,7 +15,6 @@ function ArrowNav(){
 
     let onLeftArrowClick = (e) => {
         e.preventDefault()
-
         setProjects({
             isToggleOn: !projects.isToggleOn
         })

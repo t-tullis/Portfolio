@@ -305,7 +305,7 @@ justify-content: space-between;
 @media(max-width: 500px){
   .projects-text {
     padding-right: 0rem;
-    animation: color-loop 0;
+    animation: 0;
     color: #14e878;
   }
 }
@@ -324,7 +324,7 @@ justify-content: space-between;
 @media(max-width: 500px){
   .resume-text {
     padding-left: 0rem;
-    animation: color-loop 0;
+    animation: 0;
     color: #14e878;
   }
 }
