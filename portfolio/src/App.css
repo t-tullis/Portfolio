@@ -59,7 +59,7 @@ table {
   /* background-image: url('./images/codingBG.jpg');
   background-repeat: no-repeat;
   background-size: cover; */
-  background-color: #1d0033;
+  background-color: #261447;
 }
 
 @media(max-width: 500px){
@@ -136,7 +136,7 @@ table {
 
 .fa-level-down-alt:hover{
   animation: move-up-down 1s infinite;
-  color: #14e878;
+  color: #F39C6B;
   cursor: pointer;
 }
 
@@ -176,7 +176,7 @@ table {
 
 .fa-github-alt:hover, .fa-linkedin-in:hover, .fa-twitter:hover, .fa-home:hover{
   animation: shake 1s infinite;
-  color: #14e878;
+  color: #F39C6B;
   cursor: pointer;
 }
 
@@ -255,13 +255,13 @@ justify-content: space-between;
 
 .fa-chevron-left:hover{
   animation: move-left-right 1s infinite;
-  color: #14e878;
+  color: #F39C6B;
   cursor: pointer;
 }
 
 .fa-chevron-right:hover{
   animation: move-left-right 1s infinite;
-  color: #14e878;
+  color: #F39C6B;
   cursor: pointer;
 }
 
@@ -284,7 +284,7 @@ justify-content: space-between;
 .projects-text{
   padding-right: 6rem;
   animation: color-loop 1s infinite;
-  color: #1d0033;
+  color: #261447;
 }
 
 .projects-text:hover{
@@ -306,14 +306,14 @@ justify-content: space-between;
   .projects-text {
     padding-right: 0rem;
     animation: 0;
-    color: #14e878;
+    color: #261447;
   }
 }
 
 .resume-text{
   padding-left: 6rem;
   animation: color-loop 1s infinite;
-  color: #1d0033;
+  color: #261447;
 }
 
 .resume-text:hover{
@@ -325,7 +325,7 @@ justify-content: space-between;
   .resume-text {
     padding-left: 0rem;
     animation: 0;
-    color: #14e878;
+    color: #261447;
   }
 }
 
@@ -337,10 +337,10 @@ justify-content: space-between;
 
 @keyframes color-loop {
   0% { 
-    color: #1d0033; 
+    color: #261447; 
   }
   50% { 
-    color: #14e878;
+    color: #FF3864;
   }
 }
 
@@ -372,7 +372,7 @@ justify-content: space-between;
 }
 
 .project-links a{
-  color: #1d0033;
+  color: #261447;
   text-decoration: none;
   font-size: 22px;
   font-family: 'Darker Grotesque';
@@ -380,7 +380,7 @@ justify-content: space-between;
 
 
 .project-links a:hover{
-  color: #14e878;
+  color: #FF3864;
   animation: hover-large 2s infinite;
 }
 
