@@ -111,6 +111,7 @@ table {
   font-family: 'Darker Grotesque';
   font-style: italic;
   margin-top: 2%;
+  color: #7eee9e;
 }
 
 .fa-level-down-alt {
@@ -306,7 +307,7 @@ justify-content: space-between;
   .projects-text {
     padding-right: 0rem;
     animation: 0;
-    color: #261447;
+    color: #FF3864;
   }
 }
 
@@ -325,7 +326,7 @@ justify-content: space-between;
   .resume-text {
     padding-left: 0rem;
     animation: 0;
-    color: #261447;
+    color: #FF3864;
   }
 }
 
@@ -372,7 +373,7 @@ justify-content: space-between;
 }
 
 .project-links a{
-  color: #261447;
+  color:  #FF3864;
   text-decoration: none;
   font-size: 22px;
   font-family: 'Darker Grotesque';
@@ -380,7 +381,7 @@ justify-content: space-between;
 
 
 .project-links a:hover{
-  color: #FF3864;
+  color: #261447;
   animation: hover-large 2s infinite;
 }
 
