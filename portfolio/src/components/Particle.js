@@ -12,7 +12,7 @@ const particlesOptions = {
           }
         },
         "color": {
-          "value": "#FF3864"
+          "value": "#6FFFE9"
         },
         "shape": {
           "type": "circle",

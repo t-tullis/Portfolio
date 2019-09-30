@@ -1,5 +1,5 @@
 import React from 'react'
-import ResumeFile from '../images/Resume.png'
+import ResumeFile from '../images/Resume.jpg'
 import '../App.css'
 
 function Resume(){
