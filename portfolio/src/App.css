@@ -59,7 +59,7 @@ table {
   /* background-image: url('./images/codingBG.jpg');
   background-repeat: no-repeat;
   background-size: cover; */
-  background-color: #0B132B;
+  background-color: #000000;
 }
 
 @media(max-width: 500px){
@@ -111,7 +111,7 @@ table {
   font-family: 'Darker Grotesque';
   font-style: italic;
   margin-top: 2%;
-  color: #6FFFE9;
+  color: #F5CB5C;
 }
 
 .fa-level-down-alt {
@@ -137,7 +137,7 @@ table {
 
 .fa-level-down-alt:hover{
   animation: move-up-down 1s infinite;
-  color: #6FFFE9;
+  color: #333533;
   cursor: pointer;
 }
 
@@ -177,7 +177,7 @@ table {
 
 .fa-github-alt:hover, .fa-linkedin-in:hover, .fa-twitter:hover, .fa-home:hover{
   animation: shake 1s infinite;
-  color: #6FFFE9;
+  color: #CFDBD5;
   cursor: pointer;
 }
 
@@ -256,13 +256,13 @@ justify-content: space-between;
 
 .fa-chevron-left:hover{
   animation: move-left-right 1s infinite;
-  color: #6FFFE9;
+  color: #F5CB5C;
   cursor: pointer;
 }
 
 .fa-chevron-right:hover{
   animation: move-left-right 1s infinite;
-  color: #6FFFE9;
+  color: #F5CB5C;
   cursor: pointer;
 }
 
@@ -285,7 +285,7 @@ justify-content: space-between;
 .projects-text{
   padding-right: 6rem;
   animation: color-loop 1s infinite;
-  color: #1C2541;
+  color: #333533;
 }
 
 .projects-text:hover{
@@ -307,14 +307,14 @@ justify-content: space-between;
   .projects-text {
     padding-right: 0rem;
     animation: 0;
-    color: #6FFFE9;
+    color: #F5CB5C;
   }
 }
 
 .resume-text{
   padding-left: 6rem;
   animation: color-loop 1s infinite;
-  color: #1C2541;
+  color: #333533;
 }
 
 .resume-text:hover{
@@ -326,7 +326,7 @@ justify-content: space-between;
   .resume-text {
     padding-left: 0rem;
     animation: 0;
-    color: #6FFFE9;
+    color: #F5CB5C;
   }
 }
 
@@ -338,10 +338,10 @@ justify-content: space-between;
 
 @keyframes color-loop {
   0% { 
-    color: #1C2541; 
+    color: #000000; 
   }
   50% { 
-    color: #6FFFE9;
+    color: #F5CB5C;
   }
 }
 
@@ -373,7 +373,7 @@ justify-content: space-between;
 }
 
 .project-links a{
-  color:  #6FFFE9;
+  color:  #000;
   text-decoration: none;
   font-size: 22px;
   font-family: 'Darker Grotesque';
@@ -381,7 +381,7 @@ justify-content: space-between;
 
 
 .project-links a:hover{
-  color: #1C2541;
+  color: #F5CB5C;
   animation: hover-large 2s infinite;
 }
 
