@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.e25c2328.chunk.css",
-    "main.js": "/static/js/main.b5f551a3.chunk.js",
-    "main.js.map": "/static/js/main.b5f551a3.chunk.js.map",
+    "main.js": "/static/js/main.cac47d90.chunk.js",
+    "main.js.map": "/static/js/main.cac47d90.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.0c376ca4.chunk.js": "/static/js/2.0c376ca4.chunk.js",
     "static/js/2.0c376ca4.chunk.js.map": "/static/js/2.0c376ca4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4fdfb95309a69209cf5a9cddec35164f.js": "/precache-manifest.4fdfb95309a69209cf5a9cddec35164f.js",
+    "precache-manifest.9fbdc93c28f6af163098ff23ee31f096.js": "/precache-manifest.9fbdc93c28f6af163098ff23ee31f096.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.e25c2328.chunk.css.map": "/static/css/main.e25c2328.chunk.css.map",
     "static/media/Bubl.gif": "/static/media/Bubl.c90e3c63.gif",
     "static/media/Calendr.png": "/static/media/Calendr.bb29ab50.png",
     "static/media/InstaClone.png": "/static/media/InstaClone.0f2bab4b.png",
-    "static/media/Resume.jpg": "/static/media/Resume.a87d7d9a.jpg",
+    "static/media/Resume.jpg": "/static/media/Resume.72e8d0eb.jpg",
     "static/media/TreasureHunt.png": "/static/media/TreasureHunt.8d11924d.png"
   }
 }
